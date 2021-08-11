@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Signika+Negative:wght@300&display=swap');
-
-:root {
-    font-family: 'Open Sans', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
 
 .title-explanation {
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 700;
     color: rgb(235, 109, 47);
@@ -24,11 +21,37 @@
     background-color: rgb(235, 109, 47);
 }
 
-.after-title-text {
+.after-title-2-text {
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight:400;
     color: rgb(65, 57, 57);
 }
 .honey-icons {
     max-width: 90px;
+}
+
+.carousel honey-icons {
+    max-width: 60px;
+}
+
+.title-level-3 {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(90, 55, 51);
+}
+
+.after-title-3-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    color: rgb(65, 57, 57);
+}
+
+[href='#learn-more'] {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 216, 50);
 }
