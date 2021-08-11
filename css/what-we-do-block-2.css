@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
 
 .title-explanation {
+    justify-content: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -9,6 +10,7 @@
 }
 
 .title-level-2 {
+    justify-content: center;
     font-family: 'Signika Negative', sans-serif;
     font-size: 38px;
     font-weight: 700;
@@ -16,22 +18,23 @@
 }
 
 .divider-component {
+    justify-content: center;
     height: 4px;
     width: 10%;
     background-color: rgb(235, 109, 47);
 }
 
 .after-title-2-text {
+    justify-content: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight:400;
     color: rgb(65, 57, 57);
 }
-.honey-icons {
-    max-width: 90px;
-}
 
 .carousel honey-icons {
+    display: block;
+    background-color: rgb(255, 255, 255) ; 
     max-width: 60px;
 }
 
