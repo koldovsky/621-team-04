@@ -1,60 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap");
 
 .title-explanation {
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: rgb(235, 109, 47);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(235, 109, 47);
 }
 
 .title-level-2 {
-    justify-content: center;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 38px;
-    font-weight: 700;
-    color: rgb(90, 55, 51);
+  text-align: center;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: rgb(90, 55, 51);
 }
 
 .divider-component {
-    justify-content: center;
-    height: 4px;
-    width: 10%;
-    background-color: rgb(235, 109, 47);
+  margin-left: 45%;
+  height: 4px;
+  width: 10%;
+  background-color: rgb(235, 109, 47);
 }
 
 .after-title-2-text {
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight:400;
-    color: rgb(65, 57, 57);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(65, 57, 57);
+}
+
+.carousel-honey-production {
 }
 
 .carousel honey-icons {
-    display: block;
-    background-color: rgb(255, 255, 255) ; 
-    max-width: 60px;
+  display: block;
+  background-color: rgb(255, 255, 255);
+}
+
+.honey-icons {
+  max-width: 90px;
 }
 
 .title-level-3 {
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    color: rgb(90, 55, 51);
+  font-family: "Signika Negative", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(90, 55, 51);
 }
 
 .after-title-3-text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight:400;
-    color: rgb(65, 57, 57);
+  font-family: "Open Sans", sans-serif;
+  width: 315px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(65, 57, 57);
 }
 
-[href='#learn-more'] {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: rgb(255, 216, 50);
+[href="#learn-more"] {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(255, 216, 50);
 }
