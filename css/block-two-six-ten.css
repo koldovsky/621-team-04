@@ -101,3 +101,16 @@
   font-size: 21px;
   font-weight: 700;
 }
+
+.buy-now-button {
+  background-color: var(--title-explanation-color);
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--buy-now-color);
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 114px;
+}
