@@ -1,6 +1,6 @@
 /* Block 2: What we do? */
 
-.bg-banner {
+.bg-banner-what-we-do {
   background: url(../img/bg-what-we-do.jpg);
   background-attachment: scroll;
   background-size: cover;
@@ -73,14 +73,31 @@
 
 /* Block 6: Our Honey */
 
-.wildflower-honey-article,
-.blossom-honey-article,
-.clover-honey-article,
-.buckwheat-honey-article,
-.citrus-blossom-honey-article {
+.bg-banner-our-honey {
+  background: url(../img/bg-our-honey.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+.honey-articles {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: flex-start;
   margin-left: 50px;
+}
+
+.title-honey-articles {
+  font-family: var(--title-font-family);
+  color: var(--article-color);
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.price-for-honey {
+  font-family: var(--title-font-family);
+  color: var(--learn-more-color);
+  font-size: 21px;
+  font-weight: 700;
 }
