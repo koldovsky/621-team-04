@@ -118,10 +118,19 @@
 
 /* Block  10: Honey Questions */
 
+.honey-questions {
+  display: flex;
+  flex-direction: row;
+}
+
 .honeycomb {
   display: block;
-  margin: auto;
   max-width: 350px;
+}
+
+.honey-questions-block {
+  display: flex;
+  flex-direction: column;
 }
 
 .title-explanation-honey-questions {
@@ -146,8 +155,24 @@
 }
 
 .after-title-2-text-honey-questions {
+  text-align: center;
   font-family: var(--text-font-family);
   font-size: 18px;
   font-weight: 400;
   color: var(--main-text-color);
+}
+
+summary {
+  font-family: var(--title-font-family);
+  color: var(--title-color);
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.accordeon-text {
+  font-family: var(--text-font-family);
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
 }
