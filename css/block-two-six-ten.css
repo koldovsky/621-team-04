@@ -73,7 +73,8 @@
 
 /* Block 6: Our Honey */
 
-.bg-banner-our-honey {
+.bg-banner-our-honey,
+.honey-questions {
   background: url(../img/bg-our-honey.jpg);
   background-attachment: scroll;
   background-size: cover;
@@ -113,4 +114,67 @@
   text-align: center;
   display: inline-block;
   margin-left: 114px;
+}
+
+/* Block  10: Honey Questions */
+
+.honey-questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.honeycomb {
+  display: block;
+  max-width: 350px;
+}
+
+.honey-questions-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-explanation-honey-questions {
+  font-family: var(--text-font-family);
+  color: var(--title-explanation-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.title-level-2-honey-questions {
+  font-family: var(--title-font-family);
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+.divider-component-honey-questions {
+  margin-left: 45%;
+  height: 4px;
+  width: 10%;
+  background-color: var(--divider-component-color);
+}
+
+.after-title-2-text-honey-questions {
+  text-align: center;
+  font-family: var(--text-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--main-text-color);
+}
+
+summary {
+  font-family: var(--title-font-family);
+  color: var(--title-color);
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.accordeon-text {
+  font-family: var(--text-font-family);
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  width: 50%;
 }

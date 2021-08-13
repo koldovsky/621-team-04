@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.fone-block-video {
+    background: url(../fone-block-4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+}
+.title-for-video {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.button-video-block4 {
+    border: 1px solid black;
+}
