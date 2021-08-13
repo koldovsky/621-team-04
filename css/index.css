@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --main-text-color: rgb(65, 57, 57);
+  --title-color: rgb(90, 55, 51);
+  --title-explanation-color: rgb(235, 109, 47);
+  --divider-component-color: rgb(235, 109, 47);
+  --learn-more-color: rgb(255, 216, 50);
+  --article-color: rgb(147, 147, 147);
+  --buy-now-color: rgb(255, 255, 255);
+  --title-font-family: "Signika Negative", sans-serif;
+  --text-font-family: "Open Sans", sans-serif;
