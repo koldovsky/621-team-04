@@ -1,4 +1,12 @@
 /* Block 2: What we do? */
+
+.bg-banner-what-we-do {
+  background: url(../img/bg-what-we-do.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+
 .title-explanation {
   text-align: center;
   font-family: var(--text-font-family);
@@ -30,25 +38,15 @@
   color: var(--main-text-color);
 }
 
-.carousel honey-icons {
-  display: block;
-  background-color: rgb(255, 255, 255);
+.carousel-honey-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
 }
 
 .honey-icons {
   max-width: 90px;
-}
-
-.carousel-honey-production,
-.carousel-honey-shop,
-.carousel-supplements,
-.carousel-beekeeping-classes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-left: 150px;
-  background-color: rgb(255, 255, 255);
 }
 
 .title-level-3 {
@@ -75,14 +73,44 @@
 
 /* Block 6: Our Honey */
 
-.wildflower-honey-article,
-.blossom-honey-article,
-.clover-honey-article,
-.buckwheat-honey-article,
-.citrus-blossom-honey-article {
+.bg-banner-our-honey {
+  background: url(../img/bg-our-honey.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+.honey-articles {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: flex-start;
   margin-left: 50px;
+}
+
+.title-honey-articles {
+  font-family: var(--title-font-family);
+  color: var(--article-color);
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.price-for-honey {
+  font-family: var(--title-font-family);
+  color: var(--learn-more-color);
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.buy-now-button {
+  background-color: var(--title-explanation-color);
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--buy-now-color);
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 114px;
 }
