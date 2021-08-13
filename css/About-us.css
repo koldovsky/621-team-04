@@ -1,54 +1,72 @@
-.main-about-us {
-    display: flex;
+
+.container-about-beehoney {
+    display: grid;
+    grid-template-columns: 50% 50%;
     background: url(/img/backround-photo-about-us.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
-    
 }
-.bees-and{
-    width: 400px;
-    height: 500px;
-   
-}
-
-.left-photo{
-margin-left: 60px;
-margin-right: 60px;
+.left-block >img {
+   margin-left: 20px;
+   min-width: 20%;
+   min-height: 20%;
+   width: 90%;
+   height: 100%;
 }
 
-.about-all{
- display: flex;
-}
-
-.choose-us{
-    color: rgb(223, 120, 3);
-    text-align: center;
-    font-family: "Open Sans", sans-serif; 
-    display: flex;
-}
-
-.about-beehoney {
-    color: rgb(90,55,51);
+.why-choose-us {
+    color: rgb(235, 109, 47);
     font-family: "Signika Negative", sans-serif;
-    
-}
-.family {
-    
+    font-size: 100%;
+    margin-bottom: 2%;
 }
 
-.clean-areas {
-    color:rgb(65,57,57);
+.about-beehoney{
+    color: rgb(65, 57, 57);
+    font-size: 300%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Signika Negative", sans-serif;
+    margin-bottom: 2%;
 }
 
-.raw-honey {
-    color: rgb(65,57,57);
+.line-orange{
+    border: none; 
+    background-color: rgb(235, 109, 47); 
+    color: rgb(235, 109, 47);
+    height: 4px;
+    width: 12%;
 }
-.fast-ship{
-    color:rgb(65,57,57);
+.about-main p {
+    color: rgb(114, 38, 0);
+    display: contents;
+    font-family: "Signika Negative", sans-serif;
 }
 
-.natural-environment {
-    color: rgb(65,57,57);
-    align-items: flex-end;
+.about-flex{
+   display: flex;
+   flex-direction: column;
+}
+
+.right-block > p{
+    color: rgb(235, 109, 47)
+}
+
+
+.icon-text div {
+    display: flex;
+    align-items: left;
+    font-family: var(--text-font-family);
+}
+
+
+.icon-text div img {
+    width: 91px;
+    height: 100px;
+}
+
+.p-flex {
+    display: flex;
+    flex-direction: column;
 }
