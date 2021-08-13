@@ -121,6 +121,7 @@
 .honey-questions {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .honeycomb {
@@ -174,5 +175,6 @@ summary {
   color: var(--main-text-color);
   font-size: 16px;
   font-weight: 400;
-  text-align: left;
+  text-align: justify;
+  width: 50%;
 }
