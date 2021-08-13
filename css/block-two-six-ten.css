@@ -1,4 +1,12 @@
 /* Block 2: What we do? */
+
+.bg-banner {
+  background: url(../img/bg-what-we-do.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+
 .title-explanation {
   text-align: center;
   font-family: var(--text-font-family);
@@ -30,25 +38,15 @@
   color: var(--main-text-color);
 }
 
-.carousel honey-icons {
-  display: block;
-  background-color: rgb(255, 255, 255);
+.carousel-honey-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
 }
 
 .honey-icons {
   max-width: 90px;
-}
-
-.carousel-honey-production,
-.carousel-honey-shop,
-.carousel-supplements,
-.carousel-beekeeping-classes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-left: 150px;
-  background-color: rgb(255, 255, 255);
 }
 
 .title-level-3 {
