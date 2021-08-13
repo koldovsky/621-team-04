@@ -1,29 +1,40 @@
-.main {
-    background-color: rgb(250,244,240);
-    display: flexbox;
+.main-about-us {
+    display: flex;
+    background: url(/img/backround-photo-about-us.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     
 }
 .bees-and{
-    width: 579px;
-    height: 625px;
+    width: 400px;
+    height: 500px;
+   
 }
 
 .left-photo{
-    margin-left: 10px;
+margin-left: 60px;
+margin-right: 60px;
 }
+
+.about-all{
+ display: flex;
+}
+
 .choose-us{
     color: rgb(223, 120, 3);
     text-align: center;
     font-family: "Open Sans", sans-serif; 
+    display: flex;
 }
 
 .about-beehoney {
     color: rgb(90,55,51);
     font-family: "Signika Negative", sans-serif;
-    display: contents;
+    
 }
 .family {
-    display: contents;
+    
 }
 
 .clean-areas {
@@ -38,5 +49,6 @@
 }
 
 .natural-environment {
-    
+    color: rgb(65,57,57);
+    align-items: flex-end;
 }
