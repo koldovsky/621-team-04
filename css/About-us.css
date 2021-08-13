@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     background: url(/img/backround-photo-about-us.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: 100%;
     background-position: center;
 }
