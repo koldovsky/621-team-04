@@ -39,16 +39,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-p {
-    color:black;
-    text-align: center;
-}
 
-.menu {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
 
 
