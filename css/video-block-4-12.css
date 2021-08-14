@@ -26,13 +26,7 @@
     width: 230px;
     height: 230px;
 }
-@media (min-width: 600px) {
 
-    .photo-honey-block12 {
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 .fone-block12 {
     background: url(../img/fone-block12.jpg);
@@ -48,7 +42,11 @@
     margin-right: auto;
 }
 
-
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    aling-items: center;
 
 
 
