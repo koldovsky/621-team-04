@@ -93,6 +93,7 @@ h5 {
     flex: 1;
     align-items: center;
     justify-content: space-around;
+    background-size: cover;
 }
 
 .info 
