@@ -82,6 +82,7 @@ h5 {
     background-color: rgb(102, 59, 54);
     display: flex;
     flex-direction: row;
+    background-size: cover;
     
 } 
 
