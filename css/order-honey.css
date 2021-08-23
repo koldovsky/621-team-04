@@ -1,8 +1,39 @@
-.foto-hat{
-    background: url(/img/honey-hat.png);
+.block-7{
+    background:url(/img/honey-hat.png);
+    background-repeat: no-repeat;
+ 
 }
 
-.box-btn{
+.how-order{
+    color: var(--title-explanation-color);
+    width: 150px;
+    margin: 0 auto;
+    font-family: var(--title-font-family);
+    font-size: 14px;
+    font-weight: bolder; 
+}
+
+.order-honey{
+    color: var(--main-text-color);
+    font-family: var(--title-font-family);
+    font-size: 36px;
+    font-weight: bold; 
+    width: 100px;
+    margin: 20px auto;
+    padding: 50px;
+    border-width: 10px;
+}
+
+
+.line-back{
+    border: none; 
+    background-color: rgb(235, 109, 47); 
+    color: rgb(235, 109, 47);
+    height: 4px;
+    width: 6%;
+  }
+
+  .box-btn{
     background-color: var(--title-explanation-color);
     font-family: var(--text-font-family);
     font-size: 16px;
