@@ -1,19 +1,16 @@
-.back-orange{
-    background: url(../img/honey-hat.png);
-    background: no-repeat;
-    background-color: rgb(247,189,0);
-    
-
+.foto-hat{
+    background: url(/img/honey-hat.png);
 }
 
 .box-btn{
-background-color: var(--title-explanation-color);
-  font-family: var(--text-font-family);
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--buy-now-color);
-  border-radius: 5px;
-  padding: 8px 20px;
-  text-align: center;
-  
-}
+    background-color: var(--title-explanation-color);
+    font-family: var(--text-font-family);
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--buy-now-color);
+    border-radius: 5px;
+    padding: 8px 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
