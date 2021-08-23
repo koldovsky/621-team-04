@@ -82,10 +82,17 @@
 }
 .honey-articles {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.product-images {
+  width: 200px;
+}
+
+.wildflower-honey-article {
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  text-align: flex-start;
-  margin-left: 50px;
+  flex-grow: 1;
 }
 
 .title-honey-articles {
@@ -110,10 +117,10 @@
   font-weight: bold;
   color: var(--buy-now-color);
   border-radius: 5px;
-  padding: 8px 20px;
+  padding: 8px 10px;
+  margin: 0 auto;
   text-align: center;
   display: inline-block;
-  margin-left: 114px;
 }
 
 /* Block  10: Honey Questions */

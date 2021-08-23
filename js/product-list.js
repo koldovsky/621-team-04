@@ -22,7 +22,7 @@
         "id": "4",
         "name": "Buckwheat Honey",
         "price": "$10,00USD",
-        "imgUrl": "img/buchwheat-honey.jpg"
+        "imgUrl": "img/buckwheat-honey.jpg"
     },
     {
         "id": "5",
@@ -36,7 +36,7 @@
   for (const product of products) {
     productsHtml += `
      <div class="wildflower-honey-article">
-        <img src="${product.imgUrl}" width="335" alt="${product.name}"
+        <img src="${product.imgUrl}" width="250" alt="${product.name}"
         />
         <h4 class="title-honey-articles">${product.name}</h4>
         <p class="price-for-honey">${product.price}</p>
