@@ -1,5 +1,5 @@
 (function () {
-    const productsJSON = ` [
+  const productsJSON = ` [
     {
         "id": "1",
         "name": "Wildflower Honey",
@@ -30,18 +30,18 @@
         "price": "$7,00USD",
         "imgUrl": "img/citrus-blossom-honey.jpg"
     }
-]` ;
-    const products = JSON.parse(productsJSON);
-    let productsHtml = '';
-    for (const product of products) {
-        productsHtml += `
+]`;
+  const products = JSON.parse(productsJSON);
+  let productsHtml = "";
+  for (const product of products) {
+    productsHtml += `
      <div class="wildflower-honey-article">
         <img src="${product.imgUrl}" width="335" alt="${product.name}"
         />
         <h4 class="title-honey-articles">${product.name}</h4>
         <p class="price-for-honey">${product.price}</p>
-        <a href="#buy-now" class="buy-now-button">${product.price} - Buy Now</a>
-      </div>`
-    }
-    document.querySelector('section .honey-articles').innerHTML = productsHtml;
+        <a href="#buy-now" class="buy-now-button">Buy Now</a>
+      </div>`;
+  }
+  document.querySelector("section .honey-articles").innerHTML = productsHtml;
 })();
