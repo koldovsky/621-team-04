@@ -170,11 +170,13 @@
   color: var(--main-text-color);
 }
 
-summary {
+.accordeon-header {
   font-family: var(--title-font-family);
   color: var(--title-color);
   font-size: 21px;
   font-weight: 700;
+  padding: 1rem;
+  border-bottom: 1px solid var(--title-color);
 }
 
 .accordeon-text {
@@ -184,4 +186,15 @@ summary {
   font-weight: 400;
   text-align: justify;
   width: 50%;
+}
+
+.accordeon-header::after {
+  content: "-";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+
+.accordeon-header.active::after {
+  content: "+";
 }

@@ -1,4 +1,6 @@
-const accordeonItemHeaders = document.querySelectorAll(".accordeon-header");
-accordeonItemHeaders.forEach(accordeonItemHeaders) => {
-    accordeonItemHeader.addEventListener("click", event => )
-};
+const accordeonHeaders = document.querySelectorAll(".accordeon-header");
+accordeonHeaders.forEach((accordeonHeader) => {
+  accordeonHeader.addEventListener("click", (event) => {
+    accordeonHeader.classList.toggle("active");
+  });
+});
