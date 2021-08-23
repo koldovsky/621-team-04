@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.fone-block-video {
+    background: url(../img/fone-block-4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 1520px;
+    height: 513px;
+
+}
+.title-for-video {
+    font-family: 'Open Sans', sans-serif;  
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-video-block4 {
+   padding-top: 230px;
+}
+
+/* block 12 */
+
+.photo-honey-block12 {
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    height: 230px;
+}
+
+
+.fone-block12 {
+    background: url(../img/fone-block12.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.end-text 
+p {
+    color: rgb(65, 57, 57);
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.title-block12 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px;
+    color: rgb(170, 155, 143);
+    margin-bottom: 25px;
+}
+
+.logotype {
+    margin-top: 100px;
+}
