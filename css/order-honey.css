@@ -1,16 +1,15 @@
-.block-7{
+.hat-honey{
     background:url(/img/honey-hat.png);
     background-repeat: no-repeat;
- 
+    background-color: #F7BD00;
 }
 
 .how-order{
     color: var(--title-explanation-color);
-    width: 150px;
-    margin: 0 auto;
     font-family: var(--title-font-family);
     font-size: 14px;
     font-weight: bolder; 
+    text-align:center;
 }
 
 .order-honey{
@@ -18,10 +17,8 @@
     font-family: var(--title-font-family);
     font-size: 36px;
     font-weight: bold; 
-    width: 100px;
-    margin: 20px auto;
-    padding: 50px;
-    border-width: 10px;
+    text-align:center;
+    margin-top: 40px;
 }
 
 
@@ -31,6 +28,8 @@
     color: rgb(235, 109, 47);
     height: 4px;
     width: 6%;
+    margin-top: 15px;
+
   }
 
   .box-btn{
