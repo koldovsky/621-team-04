@@ -1,7 +1,5 @@
 (function () {
-  const slides = [
-    {
-     const productsJSON = ` [
+  const servicesJSON = ` [
     {
         "id": "1",
         "name": "Honey Production",
@@ -30,21 +28,44 @@
         "link": "Learn more",
         "imgUrl": "img/beekeeping-classes.svg"
     }
-   ]`; 
-   }
-  ];
+   ]`;
+
+  const services = JSON.parse(servicesJSON);
+  let servicesHTML = [];
+  function showServices(services) {
+    const allServices = [...services];
+    for (const service of allServices) {
+      servicesHTML.push(`
+      <div class="carousel-item">
+          <img src="${service.imgUrl}" alt="${service.name}" />
+          <h3 class="title-level-3">${service.name}</h3>
+          <p class="after-title-3-text">
+            ${service.description}
+          </p>
+          <a href="${link}">Learn more</a>
+        </div>
+        `);
+    }
+    return servicesHTML;
+  }
+  showServices;
+  const slidesServices = [...servicesHTML];
   let currentSlideIdx = 0;
   function showCurrentSlide() {
-    const slideContainer = document.querySelector(
-      ".carousel-honey-icons .slide"
-    );
-    slideContainer.innerHTML = slides[currentSlideIdx];
+    const slideContainer = document.querySelector(".carousel-honey-icons");
+    slideContainer.innerHTML =
+      slidesServices[currentSlideIdx] +
+      slidesServices[currentSlideIdx + 1] +
+      slidesServices[currentSlideIdx + 2];
   }
-  function nextSlide() {
-    currentSlideIdx++;
-    if (currentSlideIdx >= slides.length) currentSlideIdx = 0;
-    showCurrentSlide();
-  }
-  setInterval(nextSlide, 3000);
+});
+function nextSlide() {
+  currentSlideIdx++;
+  if (currentSlideIdx >= slidesServices.length) currentSlideIdx = 0;
   showCurrentSlide();
-})();
+}
+setInterval(nextSlide, 3000);
+showCurrentSlide();
+
+document.querySelector(".carousel-honey-icons"),
+  addEventListener("click", nextSlide);
