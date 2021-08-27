@@ -27,12 +27,11 @@
 
 
 .line-back{
-    border: none; 
-    background-color: rgb(235, 109, 47); 
-    color: rgb(235, 109, 47);
+    margin-left: auto;
+    margin-right: auto;
     height: 4px;
-    width: 6%;
-
+    width: 10%;
+    background-color: #f7bd00;
   }
 
   .information-about-order {
@@ -96,4 +95,5 @@
     left: 50%;
     transform: translate(-50%, 0);
     margin-bottom: 30px;
+    cursor: pointer;
   }
