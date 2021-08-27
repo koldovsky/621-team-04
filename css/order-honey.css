@@ -1,6 +1,9 @@
+.honey-med-dva {
+    background: url(../img/honey-hat.png);
+    object-fit: cover;
+}
+
 .hat-honey{
-    background:url(/img/honey-hat.png);
-    background-repeat: no-repeat;
     background-color: #F7BD00;
 }
 
@@ -10,6 +13,7 @@
     font-size: 14px;
     font-weight: bolder; 
     text-align:center;
+    padding-top: 40px;
 }
 
 .order-honey{
@@ -18,7 +22,7 @@
     font-size: 36px;
     font-weight: bold; 
     text-align:center;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 
@@ -28,9 +32,57 @@
     color: rgb(235, 109, 47);
     height: 4px;
     width: 6%;
-    margin-top: 15px;
 
   }
+
+  .information-about-order {
+    font-family: var(--title-font-family);
+    justify-content: center;
+    padding-left: 300px;
+  }
+
+  .steps-order{
+      display: flex;
+  }
+
+.wait-a-bit {
+    color: rgb(90, 55, 51);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.wait {
+    color: rgb(65, 57, 57);
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.different-types {
+    color: rgb(65, 57, 57);
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.really-quick {
+    color: rgb(65, 57, 57);
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+.chosse-honey {
+    color: rgb(90, 55, 51);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.order-enjoy {
+    color: rgb(90, 55, 51);
+    font-size: 26px;
+    font-weight: 700;
+}
+
 
   .box-btn{
     background-color: var(--title-explanation-color);
@@ -43,4 +95,5 @@
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+    margin-bottom: 30px;
   }
