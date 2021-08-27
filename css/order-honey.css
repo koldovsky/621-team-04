@@ -1,6 +1,9 @@
+.honey-med-dva {
+    background: url(../img/honey-hat.png);
+    object-fit: cover;
+}
+
 .hat-honey{
-    background:url(/img/honey-hat.png);
-    background-repeat: no-repeat;
     background-color: #F7BD00;
 }
 

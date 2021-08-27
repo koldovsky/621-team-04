@@ -1,0 +1,121 @@
+.contacts-all {
+    display: flex;
+    background: url(/img/background-contacts.jpg);
+    background-size: cover;
+}
+
+
+.contacts-tittle{
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    color: rgb(235, 109, 47);
+    font-family: "Signika Negative", sans-serif;
+}
+
+.contacts-anytime{
+    padding-left: 100px;
+    padding-bottom: 20px;
+    color: rgb(90, 55, 51);
+    font-family: "Signika Negative", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.contacts-line {
+    margin-left: 100px;
+    border: none; 
+    background-color: rgb(235, 109, 47); 
+    color: rgb(235, 109, 47);
+    height: 4px;
+    width: 6%;
+}
+
+.contacts-text{
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(65, 57, 57);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.address-tittle {
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(90, 55, 51);
+    font-family: "Signika Negative", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.address-info {
+    display: flex;
+    align-items: center;
+}
+
+.hours-tittle {
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(90, 55, 51);
+    font-family: "Signika Negative", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.tele-email{
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(90, 55, 51);
+    font-family: "Signika Negative", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.map-google {
+    padding-left: 100px;
+}
+
+.message-form {
+    border-radius: 20px;
+    margin-top: 120px;
+    padding: 50px;
+    border-radius: 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px black;   
+}
+
+.message-form input {
+    border-radius: 20px;
+    padding: 20px;
+    outline: none;
+    background-color: rgb(249,244,240);
+    margin-bottom: 15px;
+}
+
+.message-form input:focus {
+    outline: none;
+}
+
+.full-name-text {
+   height: 30px;
+   width: 450px;
+}
+
+.phone-nomer-text{
+    height: 30px;
+    width: 450px;
+}
+
+.email-text {
+    height: 30px;
+    width: 450px;
+}
+
+.type-message {
+    height: 150px;
+    width: 450px;
+}
