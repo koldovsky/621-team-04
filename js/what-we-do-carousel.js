@@ -70,3 +70,4 @@ document.querySelector(".carousel-honey-icons"),
   addEventListener("click", nextSlide);
 setInterval(nextSlide, 3000);
 showCurrentSlide();
+}) ();
