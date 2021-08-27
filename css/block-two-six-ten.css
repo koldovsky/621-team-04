@@ -126,14 +126,13 @@
 /* Block  10: Honey Questions */
 
 .honey-questions {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .honeycomb {
   display: block;
-  max-width: 350px;
+  width: 80%;
 }
 
 .honey-questions-block {
@@ -146,6 +145,7 @@
   color: var(--title-explanation-color);
   font-size: 14px;
   font-weight: 700;
+  text-align: left;
 }
 
 .title-level-2-honey-questions {
@@ -153,21 +153,27 @@
   font-size: 38px;
   font-weight: 700;
   color: var(--title-color);
+  text-align: left;
 }
 
 .divider-component-honey-questions {
-  margin-left: 45%;
+  margin-left: 20px;
   height: 4px;
   width: 10%;
   background-color: var(--divider-component-color);
 }
 
 .after-title-2-text-honey-questions {
-  text-align: center;
+  text-align: left;
   font-family: var(--text-font-family);
   font-size: 18px;
   font-weight: 400;
   color: var(--main-text-color);
+}
+
+.accordeon-block {
+  margin-right: 70px;
+  width: 80%;
 }
 
 .accordeon-header {
@@ -176,7 +182,7 @@
   font-size: 21px;
   font-weight: 700;
   padding: 1rem;
-  border-bottom: 1px solid var(--title-color);
+  border-bottom: 1px solid var(--article-color);
 }
 
 .accordeon-text {
@@ -185,16 +191,5 @@
   font-size: 16px;
   font-weight: 400;
   text-align: justify;
-  width: 50%;
-}
-
-.accordeon-header::after {
-  content: "-";
-  font-size: 2rem;
-  position: absolute;
-  right: 1rem;
-}
-
-.accordeon-header.active::after {
-  content: "+";
+  width: 100%;
 }
