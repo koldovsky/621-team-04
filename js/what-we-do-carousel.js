@@ -48,26 +48,25 @@
     }
     return servicesHTML;
   }
-  showServices;
+  showServices();
   const slidesServices = [...servicesHTML];
   let currentSlide = 0;
   function showCurrentSlide() {
-    const slideContainer = document.querySelector(
-      ".carousel-honey-icons .slide"
-    );
+    const slideContainer = document.querySelector(".carousel-honey-icons");
     slideContainer.innerHTML =
       slidesServices[currentSlideIdx] +
       slidesServices[currentSlideIdx + 1] +
       slidesServices[currentSlideIdx + 2];
   }
 });
+
 function nextSlide() {
-  currentSlide++;
-  if (currentSlide >= slidesServices.length) currentSlideIdx = 0;
+  if (currentSlideIdx >= slidesServices.length) currentSlideIdx = 0;
   showCurrentSlide();
+  currentSlide++;
 }
+
+document.querySelector(".carousel-honey-icons"),
+  addEventListener("click", nextSlide);
 setInterval(nextSlide, 3000);
 showCurrentSlide();
-
-document.querySelector(".carousel-honey-icons .slide"),
-  addEventListener("click", nextSlide);
