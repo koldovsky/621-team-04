@@ -1,10 +1,5 @@
-.honey-med-dva {
-    background: url(../img/honey-hat.png);
-    object-fit: cover;
-}
-
-.hat-honey{
-    background-color: #F7BD00;
+.order-color {
+    background-color: rgb(247,189,0);
 }
 
 .how-order{
@@ -27,22 +22,24 @@
 
 
 .line-back{
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     height: 4px;
     width: 10%;
-    background-color: #f7bd00;
+    background-color: rgb(235,109,47)
   }
 
   .information-about-order {
     font-family: var(--title-font-family);
-    justify-content: center;
-    padding-left: 300px;
+    padding-top: 30px;
+    padding-left: 400px;
   }
 
   .steps-order{
       display: flex;
   }
+  
 
 .wait-a-bit {
     color: rgb(90, 55, 51);
@@ -68,8 +65,6 @@
 }
 
 
-
-
 .chosse-honey {
     color: rgb(90, 55, 51);
     font-size: 26px;
@@ -90,10 +85,12 @@
     font-weight: bold;
     color: var(--buy-now-color);
     border-radius: 5px;
+    border-radius: 5px;
     padding: 8px 20px;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 150px;
     cursor: pointer;
   }
