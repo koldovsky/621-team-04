@@ -9,10 +9,9 @@
 }
 .left-block >img {
    margin-left: 20px;
-   min-width: 20%;
-   min-height: 20%;
    width: 90%;
-   height: 100%;
+   height: auto;
+   padding-bottom: 20px;
 }
 
 .why-choose-us {
@@ -37,6 +36,7 @@
     color: rgb(235, 109, 47);
     height: 4px;
     width: 12%;
+    margin-bottom: 20px;
 }
 .about-main p {
     color: rgb(114, 38, 0);
@@ -58,6 +58,7 @@
     display: flex;
     align-items: left;
     font-family: var(--text-font-family);
+    padding-bottom: 40px;
 }
 
 
@@ -69,4 +70,8 @@
 .p-flex {
     display: flex;
     flex-direction: column;
+}
+
+.natural-environment{
+   margin-top: 20px;
 }
