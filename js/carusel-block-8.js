@@ -1,5 +1,7 @@
 (function() {
 
+    let slidesToShow = 1;
+
     const productsJson = `[
         {
             "id": "1",
@@ -47,8 +49,19 @@
 
         function showCurrentSlide() {
             const slideContainer = document.querySelector('.carusel-products .card');
-            slideContainer.innerHTML = slides[currentSlideIdx];
+           
+            switch (slidesToShow) {
+                case 1:  slideContainer.innerHTML = slides[currentSlideIdx];
+                         break;
+                case 2:  
+                        const nextSlideIdx = currentSlideIdx + 1 > slides.length ? 0 : currentSlideIdx +1;
+                        slideContainer.innerHTML = slides[currentSlideIdx]
+                        + slides[nextSlideIdx];
+                        break;
+                
+            }
         }
+
     
         function nextSlide() {
             currentSlideIdx++;
@@ -59,5 +72,17 @@
         setInterval(nextSlide, 6000);
         showCurrentSlide();
 
+    function onResize() {
+        if (window.innerWidth < 600) {
+            this.slidesToShow = 1;
+        } else if (window.innerWidth < 800) {
+            this.slidesToShow = 2;
+        } else {
+            this.slidesToShow = 3;
+        }
+        showCurrentSlide();
+    }
+
+    window.addEventListener('resize', onResize);
         
 })();
