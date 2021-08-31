@@ -138,3 +138,9 @@
   .border-button:hover {
     background: rgba(255, 255, 255, .2);
   }
+
+  .btn-back-color {
+    display: flex;
+    background-color:rgb(247,189,0);
+    justify-content: center;
+  }
