@@ -3,7 +3,6 @@
 }
 
 body{
-	background: rgb(247,189,0);
 	color: black;
 }
 
@@ -16,8 +15,7 @@ body{
 .block-watch {
     padding-top: 30px;
     height: 400px !important;
-    align-items: center !important;
-    text-align: center !important; 
+    text-align: center; 
 }
 
 .container{
