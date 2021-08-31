@@ -1,6 +1,6 @@
 .contacts-all {
     display: flex;
-    background: url(/img/background-contacts.jpg);
+    background: url(img/background-contacts.jpg);
     background-size: cover;
 }
 
