@@ -119,3 +119,11 @@
   cursor: pointer;
   padding: 10px 0;
 }
+
+
+@media screen and (max-width: 768px) {
+    .contacts-all {
+      display: flex;
+      flex-direction: column;
+    }
+}

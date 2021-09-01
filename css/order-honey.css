@@ -9,10 +9,12 @@
     font-size: 14px;
     font-weight: bolder; 
     text-align:center;
+    padding-top: 30px;
 }
 
 .steps-order {
     margin-top: 50px;
+    display: flex;
 }
 
 .img-wait-icon {
@@ -150,3 +152,16 @@
     align-items: center;
     margin-bottom: 20px;
   }
+
+
+  @media screen and (max-width: 768px) {
+    .steps-order {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .steps-order img {
+        width: 150px;
+        height: 160px;
+    }
+}
