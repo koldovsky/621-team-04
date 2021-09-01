@@ -1,6 +1,6 @@
 (function() {
 
-    let slidesToShow = 1;
+    let slidesToShow = 2;
 
     const productsJson = `[
         {
@@ -32,7 +32,7 @@
     for (const product of products) {
         productsHtml.push(` 
         <div class="card">
-          <img src="${product.imgUrl}" width="70" alt="${product.name}" />
+          <img src="${product.imgUrl}" class="photo-peaple" alt="${product.name}" />
           <h3>${product.name}</h3>
           <p>
           ${product.text}
@@ -48,12 +48,12 @@
         let currentSlideIdx = 0;
 
         function showCurrentSlide() {
-            const slideContainer = document.querySelector('.carusel-products .card');
+            const slideContainer = document.querySelector('.carusel-products');
            
             switch (slidesToShow) {
                 case 1:  slideContainer.innerHTML = slides[currentSlideIdx];
                          break;
-                case 2:  
+                case 2: 
                         const nextSlideIdx = currentSlideIdx + 1 > slides.length ? 0 : currentSlideIdx +1;
                         slideContainer.innerHTML = slides[currentSlideIdx]
                         + slides[nextSlideIdx];
@@ -69,20 +69,22 @@
             showCurrentSlide();
         }
     
-        setInterval(nextSlide, 6000);
         showCurrentSlide();
 
     function onResize() {
-        if (window.innerWidth < 600) {
+        if (window.innerWidth < 750) {
             this.slidesToShow = 1;
-        } else if (window.innerWidth < 800) {
+        } else if (window.innerWidth < 1500) {
             this.slidesToShow = 2;
-        } else {
-            this.slidesToShow = 3;
-        }
+        } 
         showCurrentSlide();
     }
 
     window.addEventListener('resize', onResize);
-        
+    
+   
+    
+    document
+        .querySelector(".carousel-items .next-click")
+        .addEventListener("click", nextSlide);
 })();
