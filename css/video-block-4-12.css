@@ -5,7 +5,6 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    width: 1520px;
     height: 513px;
 }
 
@@ -16,8 +15,12 @@
     font-weight: bold;
 }
 
-.button-video-block4 {
+.button-youtube {
    padding-top: 230px;
+   margin-left: auto;
+   margin-right: auto;
+   background-attachment: fixed;
+   padding-bottom: 15px;
 }
 
 /* block 12 */
