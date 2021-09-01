@@ -94,7 +94,7 @@
   font-size: 50px;
 }
 .discount {
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -103,11 +103,12 @@
 
 .countdown {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   font-family: var(--text-font-family);
-  color: var(--main-text-color);
+  color: var(--article-color);
   font-size: 15px;
+  font-family: var(--text-font-family);
 }
 
 .day,
@@ -115,18 +116,24 @@
 .minute,
 .second {
   font-size: 2rem;
+  font-family: var(--text-font-family);
+  color: var(--main-text-color);
 }
 
 .honey-articles {
-  display: flex;
   flex-wrap: wrap;
+  display: flex;
 }
 
 .product-images {
   width: 200px;
 }
 
-.wildflower-honey-article {
+.wildflower-honey-article,
+.blossom-honey-article,
+.clover-honey-article,
+.buckwheat-honey-article,
+.citrus-blossom-honey-article {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
