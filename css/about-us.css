@@ -6,7 +6,9 @@
     background-attachment: scroll;
     background-size: 100%;
     background-position: center;
+    width: 100%;
 }
+
 .left-block >img {
    margin-left: 20px;
    width: 90%;
@@ -75,3 +77,11 @@
 .natural-environment{
    margin-top: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .container-about-beehoney {
+      display: flex;
+      flex-direction: column;
+      padding-left: 30px;
+    }
+  }

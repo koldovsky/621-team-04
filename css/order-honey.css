@@ -9,10 +9,12 @@
     font-size: 14px;
     font-weight: bolder; 
     text-align:center;
+    padding-top: 30px;
 }
 
 .steps-order {
     margin-top: 50px;
+    display: flex;
 }
 
 .img-wait-icon {
@@ -96,8 +98,8 @@
 
 .border-button {
     display: inline-block;
-    padding: 20px 30px;
-    margin: 10px 20px;
+    padding: 1px 40px;
+    margin: 1px 10px;
     color: white;
     border: 1px solid rgba(255, 255, 255, .4);
     background: none;
@@ -150,3 +152,16 @@
     align-items: center;
     margin-bottom: 20px;
   }
+
+
+  @media screen and (max-width: 768px) {
+    .steps-order {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .steps-order img {
+        width: 150px;
+        height: 160px;
+    }
+}
