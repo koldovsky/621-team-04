@@ -80,12 +80,43 @@
 /* Block 6: Our Honey */
 
 .bg-banner-our-honey,
-.honey-questions {
+.honey-questions,
+.discount {
   background: url(../img/bg-our-honey.jpg);
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
 }
+
+.discount-header {
+  font-family: var(--title-font-family);
+  color: var(--title-color);
+  font-size: 50px;
+}
+.discount {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family: var(--text-font-family);
+  color: var(--main-text-color);
+  font-size: 15px;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 2rem;
+}
+
 .honey-articles {
   display: flex;
   flex-wrap: wrap;
