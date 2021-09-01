@@ -1,6 +1,5 @@
-const accordeonHeaders = document.querySelectorAll(".accordeon-header");
-accordeonHeaders.forEach((accordeonHeader) => {
-  accordeonHeader.addEventListener("click", (event) => {
-    accordeonHeader.classList.toggle("active");
-  });
-});
+ const accordeon = document.getElementsByClassName("contentBx");
+      for (i = 0; i < accordeon.length; i++) {
+        accordeon[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+        });
